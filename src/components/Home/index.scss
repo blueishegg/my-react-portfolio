@@ -39,7 +39,7 @@
     }
 
     img {
-      width: 32px;
+      width: 192px;
       margin-left: 20px;
       opacity: 0;
       height: auto;
@@ -70,10 +70,11 @@
     margin-top: 25px;
     float: left;
     animation: fadeIn 1.8s backwards;
+    white-space: nowrap;
 
     &:hover {
       background: #ffd700;
-      color: #8d8d8d;
+      color: #333;
     }
   }
 }
